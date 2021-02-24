@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="Spanish">
+
+<head>
+    <title>TandriTattoo - Plasmando tinta desde 2015</title>
+    <!-- METAS -->
+    <meta charset="UTF-8" />
+    <meta name="title" content="TandriTattoo - Plasmando tinta desde 2015" />
+    <meta name="description" content="Tu sitio de tatuajes de confianza. Con más de 5 años de experiencia y más de 100 tatuajes.  ¡A que esperas para pedir una cita!" />
+    <meta name="keywords" content="tatuajes, madrid, tatuador, tattoo, tinta, sitios, de, tatuajes, experiencia, buenos, trabajos, calidad" />
+    <meta name="autor" content="Adam M.S" />
+    <meta name="copyright" content="Adam M.S" />
+    <!-- LINK REL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navegation">
+        <!-- Logotipo -->
+        <a href="#inicio" class="logo"><img src="./media/logo/logo.png" class="logoImage" height="150px" width="150px" alt="TandriTattoo Logo" /></a>
+        <!-- Tabla con las diferentes opciones del navbar -->
+        <ul id="menu" class="menu">
+            <li data-menuanchor="inicio" class="active">
+                <a href="#inicio">Inicio</a>
+            </li>
+            <li data-menuanchor="trabajo">
+                <a href="#trabajo">Trabajos</a>
+            </li>
+            <li data-menuanchor="contacto">
+                <a href="#contacto">Pide una cita</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Secciones de la página web -->
+    <main id="fullpage">
+        <!-- Sección SUPERIOR -->
+        <header class="section">
+            <!-- Texto con opciones -->
+            <div class="contenedorTexto">
+                <h1 class="titulo">
+                    <span class="textoSuperior">Bienvenido a tu tatuador de confianza.</span>
+                    <p class="textoInferior">
+                        Desde 2015 se han realizado más de 100 tatuajes, obteniendo unos resultados <br /> mas que satisfactorios para nuestros clientes. ¿Quieres ser uno más de ellos?
+                    </p>
+                    <button class="botonCita"><a href="#contacto">Pide tu cita ya</a></button>
+                </h1>
+            </div>
+            <!-- Video de fondo-->
+            <video loop muted data-autoplay class="bg-video">
+        <source src="media/video/shortTattoo.mp4" type="video/mp4" />
+      </video>
+        </header>
+
+        <!-- Sección de la mitad -->
+        <section class="section">
+            <div class="contenidoMitad">
+                <!-- Texto explicativo -->
+                <h1 class="textoSection">
+                    Sabemos que la confianza lo es todo, y que una imágen vale más que mil palabras. <br><br> Por eso te dejo alguno de mis trabajos para que puedas ver como trabajamos en TandriTattoo.
+                </h1>
+            </div>
+
+            <!-- Carrusel de fotos -->
+            <div class="carrusel">
+                <!-- Contenedor carrusel -->
+                <div class="carrusel__contenedor">
+                    <!-- Boton izquierda -->
+                    <button aria-label="Anterior" class="carrusel__anterior">
+                      <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <!-- Fotos-->
+                    <div class="carrusel__lista">
+                        <div class="carrusel__foto">
+                            <img src='./media/tattoos/ancianoOjo.jpeg' alt="Tatuaje de un ojo de anciano." />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/rosaPalma.jpeg" alt="Tatuaje de una rosa en la palma de la mano." />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/Palmera.jpeg" alt="Tatuaje de palmera" />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/brujula.jpeg" alt="Tatuaje de una brujula" />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/escudo.jpeg" alt="Tatuaje de un escudo." />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/pajaroAntebrazo.jpeg" alt="Tatuaje de un pajaro en el antebrazo." />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/bartLisa.jpeg" alt="Tatuaje de dos hermanos peleandose. Bart y Lisa." />
+                        </div>
+                        <div class="carrusel__foto">
+                            <img src="./media/tattoos/nombreAntebrazo.jpeg" alt="Tatuaje de un nombre en el antebrazo." />
+                        </div>
+                    </div>
+
+                    <!-- Boton derecha -->
+                    <button aria-label="Posterior" class="carrusel__posterior">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+
+
+            </div>
+
+            <!-- Botones que estan debajo del carrusel -->
+            <div role="tablist" class="carrusel__indicadores"></div>
+            </div>
+        </section>
+        <!-- Sección del final -->
+        <section class="section">
+            <article class="slide">
+                <h2 class="textoFinal">Pide tu cita y sígueme en las redes sociales.</h2>
+                <p class="redesSociales">
+                    <a href="pedirCita.html" class="appointment"><i class="far fa-calendar-check"></i></a>
+                    <a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://es-es.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+                </p>
+            </article>
+            <article class="slide">
+                <div class="jotForm">
+                    <script type="text/javascript" src="https://form.jotform.com/jsform/210423776667058"></script>
+                </div>
+            </article>
+        </section>
+
+        <!-- FOOTER -->
+        <div class="section fp-auto-height">
+            <div class="footer">
+
+                <ul class="avisos">
+                    <li><a href="http://www.legislacioninternet.com/ejemplo-aviso-legal/">Aviso legal</a></li>
+                    <li><a href="http://www.legislacioninternet.com/politica-de-privacidad/">Política de privacidad</a></li>
+                </ul>
+                <ul class="faq">
+                    <li> <a href="#trabajo">¿Quienes somos?</a></li>
+                    <li> <a href="#peditCita">Localización</a></li>
+                    <li> <a href="#trabajo">Trabajos</a></li>
+                    <li> <a href="">Contacto</a></li>
+                    <li> <a href="pedirCita.html">Pide tu cita</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.js"></script>
+    <script src="js/app.js"></script>
+</body>
+<footer></footer>
+
+</html>
