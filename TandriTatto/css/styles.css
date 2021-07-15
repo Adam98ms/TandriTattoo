@@ -1,0 +1,502 @@
+body {
+    background-image: url("../media/bg/background.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+
+/* ==================== ESTILOS PARA EL HEADER ==================== */
+
+
+/*  -----------------------------------
+        MENU DE NAVEGACION
+ ----------------------------------- */
+
+
+/* Estilos para la barra de navegación */
+
+.navegation {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px 5px 5px;
+}
+
+
+/* Estilos para el texto de la barra de navegación*/
+
+.navegation li,
+.navegation a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro Semi", sans-serif;
+    font-size: 19px;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.navegation li.active {
+    border-bottom: 1px solid orange;
+}
+
+.navegation li:active a,
+.navegation li:hover a {
+    color: orange;
+}
+
+
+/* Estilo para boton cita */
+
+.botonCita,
+.botonCita a {
+    /* Estilos boton */
+    border: #353866;
+    border-radius: 36px;
+    padding: 10px 30px;
+    background-color: #353866;
+    /* Estilos fuente del boton */
+    font-family: Source Sans Pro Regular;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* -----------------------------------
+    FIN MENU DE NAVEGACION 
+-------------------------------------- */
+
+.navegation li a,
+
+/*  -----------------------------------
+        ESTILOS PARA EL MENU DEL HEADER
+ ----------------------------------- */
+
+
+/* Estilos para el texto */
+
+.section .contenedorTexto {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.section .titulo .textoSuperior {
+    font-family: "Source Sans Pro Regular";
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.section .titulo .textoInferior {
+    font-family: "Source Sans Pro Regular";
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* Video de background */
+
+.bg-video {
+    /* Estilos para el posicionamiento */
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* Estilos para el tamaño */
+    background-size: 100%;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    /* Estilos para los colores y filtros */
+    background: #000;
+    filter: sepia(50%);
+    /* -----------------------------------
+    FIN MENU DE HEADER
+-------------------------------------- */
+}
+
+
+/* ====================FIN DE ESTILOS PARA EL HEADER ====================*/
+
+
+/* ==================== ESTILOS PARA EL BODY ==================== */
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+section .contenidoMitad {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+section .textoSection {
+    font-size: 22px;
+    font-family: "Source Sans Pro Regular";
+}
+
+.carrousel__elemento img {
+    height: auto;
+    display: block;
+    width: 300px;
+}
+
+
+/* ====================FIN DE ESTILOS PARA EL BODY ====================*/
+
+
+/* ==================== ESTILOS PARA EL FINAL + FOOTER ==================== */
+
+
+/*  -----------------------------------
+        ESTILOS PARA LAS REDES SOCIALES Y TEXTO
+ ----------------------------------- */
+
+
+/* Boton para pedir cita e iconos redes sociales*/
+
+.textoFinal {
+    font-family: "Source Sans Pro Semi";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: orange;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.redesSociales a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: orange;
+    text-decoration: none;
+    border-radius: 100px;
+    margin: 0 20px;
+}
+
+
+/* Iconos en su estado normal */
+
+.appointment i {
+    color: orange;
+}
+
+.section .facebook i {
+    color: #3b5998;
+}
+
+.section .twitter i {
+    color: #00acee;
+}
+
+.section .instagram i {
+    color: #c13584;
+}
+
+
+/* Iconos al pasar el cursor por encima o seleccioanr */
+
+.section .appointment:hover {
+    background: orange;
+}
+
+.section .facebook:hover {
+    background: #3b5998;
+}
+
+.section .twitter:hover {
+    background: #00acee;
+}
+
+.section .instagram:hover {
+    background: #c13584;
+}
+
+.section .facebook:hover i {
+    background: #3b5998;
+}
+
+.section .appointment:hover i,
+.section .twitter:hover i,
+.section .instagram:hover i,
+.section .facebook:hover i {
+    color: #fff;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    padding-top: 10px;
+    opacity: 0.5;
+    background-color: #000;
+}
+
+
+/*  -----------------------------------
+        FIN DE ESTILOS PARA LAS REDES SOCIALES Y TEXTO
+ ----------------------------------- */
+
+
+/*  -----------------------------------
+        ESTILOS PARA EL FOOTER
+ ----------------------------------- */
+
+.faq {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avisos li,
+.avisos a,
+.faq li,
+.faq a {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Source Sans Pro Semi";
+    margin: 10px;
+    color: white;
+}
+
+.faq a:hover,
+.avisos a:hover {
+    color: orange;
+}
+
+
+/*  -----------------------------------
+       FIN DE  ESTILOS PARA EL FOOTER
+ ----------------------------------- */
+
+
+/* ====================FIN DE ESTILOS PARA EL FINAL + FOOTER ====================*/
+
+
+/* ====================ESTILOS PARA FULLPAGE.JS ====================*/
+
+
+/* Estilos para los menus de la derecha */
+
+#fp-nav ul li a span {
+    background: orange;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: orange;
+}
+
+
+/* Estilos para las flechas de los slide */
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 70%;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 50px;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 50px;
+    border-width: 20px 20px 20px;
+    border-color: transparent transparent transparent #fff;
+}
+
+
+/* ==================== FIN DE ESTILOS PARA FULLPAGE.JS  ==================== */
+
+
+/* ====================ESTILOS PARA CARROUSEL ====================*/
+
+.carrusel__contenedor {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.carrusel__lista {
+    overflow: hidden;
+}
+
+.carrusel__foto {
+    width: 50%;
+    height: 80%;
+    margin: 5px;
+}
+
+.carrusel__foto img {
+    height: 450px;
+    width: 440px;
+}
+
+.carrusel__anterior,
+.carrusel__posterior {
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+}
+
+.carrusel__anterior:hover,
+.carrusel__posterior:hover {
+    opacity: 100%;
+}
+
+.carrusel__anterior {
+    left: -30px;
+}
+
+.carrusel__posterior {
+    right: -30px;
+}
+
+.carrusel__indicadores .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: 0.2;
+    border-radius: 0;
+}
+
+.carrusel__indicadores .glider-dot:hover {
+    opacity: 0.5;
+}
+
+.carrusel__indicadores .glider-dot.active {
+    opacity: 1;
+}
+
+
+/* ==================== FIN DE ESTILOS PARA CARROUSEL  ==================== */
+
+
+/* ==================== FUENTES  ==================== */
+
+
+/* Para el contenido normal */
+
+@font-face {
+    font-family: Source Sans Pro Regular;
+    src: url("/fonts/SourceSansPro-Regular.ttf") format("opentype");
+}
+
+
+/* Para titulos/header/footer */
+
+@font-face {
+    font-family: Source Sans Pro Semi;
+    src: url("/fonts/SourceSansPro-SemiBold.ttf") format("opentype");
+}
+
+
+/* ==================== FIN FUENTES  ==================== */
+
+
+/* ==================== MEDIA QUERYS  ==================== */
+
+@media screen and (max-width: 1068px) {
+    /* Navegacion */
+    .navegation li a,
+    .navegation li.active a {
+        font-size: 18px;
+    }
+    .section .titulo .textoSuperior {
+        font-size: 22px;
+    }
+    .section .titulo .textoInferior {
+        font-size: 16px;
+    }
+    /* Body */
+    .section .textoSection {
+        font-size: 16px;
+    }
+    /* Footer */
+    .textoFinal {
+        font-size: 20px;
+    }
+    .redesSociales a {
+        font-size: 30px;
+    }
+    .avisos li,
+    .avisos a,
+    .faq li,
+    .faq a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Navegacion */
+    .navegation li a,
+    .navegation li.active a {
+        font-size: 14px;
+    }
+    .section .titulo .textoSuperior {
+        font-size: 22px;
+    }
+    .section .titulo .textoInferior {
+        font-size: 14px;
+    }
+    /* Body */
+    .section .textoSection {
+        font-size: 16px;
+    }
+    /* Footer */
+    .textoFinal {
+        font-size: 20px;
+    }
+    .redesSociales a {
+        font-size: 30px;
+    }
+    .avisos li,
+    .avisos a,
+    .faq li,
+    .faq a {
+        font-size: 11px;
+    }
+}
+
+
+/* ==================== FINMEDIA QUERYS  ==================== */
